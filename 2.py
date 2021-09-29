@@ -1,8 +1,9 @@
 from typing import List, NewType, Union
 
-
+# Util
 def log_clause(clause: str) -> None:
     print(f"--- {clause} ---")
+
 
 # A
 log_clause("A")
@@ -23,7 +24,7 @@ for idx in range(5):
 # C
 log_clause("C")
 my_number = 3
-season = "" # Initialize with empty string
+season = "" # Initialize with an empty string
 if my_number == 1:
     season = "summer"
 elif my_number == 2:
