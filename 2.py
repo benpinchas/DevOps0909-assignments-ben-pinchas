@@ -125,7 +125,7 @@ for i in range(7):
     print(line)
 
 # M
-log_clause("L")
+log_clause("M")
 
 def get_number_from_input():
     return input("Give me a number:")
